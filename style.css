@@ -1,0 +1,295 @@
+*{margin: 0; padding: 0;}
+body{margin: 0; font-family: "Poppins"}
+
+header{
+  width: 100%;
+  background-color: #fff;
+}
+
+.largura-limitada{
+  max-width: 1024px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.topo-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  margin-right: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 75px;
+  margin-right: 10px;
+}
+.logo h1{
+  color: #233032;
+  font-size: 30px;
+  line-height: 30px
+}
+.logo p{
+  font-size: 18px;
+  color: #2f86d6;
+}
+.logo a{
+  text-decoration: none;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 15px;   
+  color: #233032;
+  font-weight: bold;
+}
+
+.secao-banner{
+  background-color: #2f86d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner img{
+  width: 45%;
+}
+
+.banner-content{
+  width: 50%;
+  color: #f1f3f7;
+}
+.banner h2{
+  font-size: 28px;
+  margin: 10px auto;
+}
+.banner p{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.secao-anuncio-1{
+  background-color: #233032;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anuncio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f1f3f7;
+}
+
+.anuncio-content h4{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.anuncio-content p{
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+
+.anuncio a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #f1f3f7;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #2f86d6;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.anuncio a::before{
+  content: url('assets/icone-foguete.png');
+  margin-right: 5px;
+}
+
+h3{
+  font-size: 24px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.texto-azul{
+  color: #2f86d6;
+}
+
+.informacoes div{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.informacoes article{
+  width: calc((100%/3)-6px);
+  text-align: center;
+}
+
+.informacoes article img{
+  width: 130px;
+  margin-bottom: 15px;
+}
+
+.informacoes article p{
+  font-size: 14px;
+  margin-top: 15px
+}
+
+#secao-planos{
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+table{
+  background-color: #f6f6f6;
+  box-shadow: 0px 0px 20px 5px #2f86d6;
+  text-align: center;
+}
+figure{
+  padding-top: 15px
+}
+figure img{
+  width: 75%;
+}
+figcaption{
+  color: #868686;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+th,td{
+  padding: 10px 20px
+}
+
+th{
+  width: calc(100%/4);
+}
+
+thead tr{
+  background-color: #fff;
+}
+
+
+thead tr{
+  text-align: top
+}
+
+
+tbody{
+  font-size: 14px
+}
+
+tbody tr:nth-of-type(odd){
+  background-color: #f6f6f6;
+}
+
+tbody tr:nth-of-type(even){
+  background-color: #fff;
+}
+
+.secao-anuncio-2{
+  background-color: #2f86d6;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anuncio-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f1f3f7;
+}
+
+.anuncio-2-content h4{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+
+.anuncio-2 a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #f1f3f7;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #233032;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.anuncio-2 a::before{
+  content: url('assets/icone-foguete.png');
+  margin-right: 5px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#secao-contatos{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px
+}
+.foot{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contatos{
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px
+}
+
+#autor{
+  width: 100%;
+  padding: 15px 0px;
+  background-color: #f6f6f6;
+}
+
+.autor{
+  text-align:center;
+  font-size: 14px;
+  padding: 10px 0px;
+}
